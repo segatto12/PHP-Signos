@@ -1,0 +1,23 @@
+
+body{
+    background-image: url('signos.webp');
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.max-w{
+    min-width: 550px;
+    max-width: 800px;
+}
+
+.btn{
+    background: rgb(110, 3, 3);
+    background: linear-gradient(90deg, rgb(110, 3, 3) 0%, rgb(110, 3, 3) 56%, rgb(116, 3, 3) 100%);
+    color: #fff;
+}
+
+.btn:hover{
+    background: rgb(110, 3, 3);
+    background: linear-gradient(90deg, rgba(110, 3, 3) 0%, rgba(110, 3, 3) 56%, rgba(5,119,126,1) 100%);
+    color: #fff;
+}
